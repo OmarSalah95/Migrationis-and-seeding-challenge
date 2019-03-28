@@ -14,7 +14,10 @@ exports.seed = function(knex, Promise) {
           { name: "cups BBQ sauce" }, //7
           { name: "ounces dough" }, //8
           { name: "cups tomato sauce" }, //9
-          { name: "pepperoni slices" } //10
+          { name: "pepperoni slices" }, //10
+          { name: "cups monstererella cheese" }, //11
+          { name: " ounces italian sausage" }, //12
+          { name: "cups of canned sardine" } //13
         ]);
       });
   };

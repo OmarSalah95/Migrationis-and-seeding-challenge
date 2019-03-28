@@ -32,21 +32,34 @@ exports.seed = function(knex, Promise) {
           },
           { recipe_id: 4, order: 1, step_description: "find somebody else's ribs" },
           { recipe_id: 4, order: 2, step_description: "eat all of them ribs" },
-          { recipe_id: 5, order: 1, step_description: "Get refused service from pizza hut, for no shoes and no shirt" },
+          { 
+            recipe_id: 5, 
+            order: 1, 
+            step_description: "Get refused service from pizza hut, for no shoes and no shirt" },
           {
             recipe_id: 5,
             order: 2,
-            step_description: "frantically smash them into a rough oval shape"
+            step_description: "Make an oblong lopsided uneven circle to puts the stuffs in"
           },
           {
             recipe_id: 5,
             order: 3,
+            step_description: "Pour and lather the tomato sauce onto your dough-val"
+          },
+          {
+            recipe_id: 5,
+            order: 4,
+            step_description: "cover the whole thing in cheese, pepperoni, and sausage"
+          },
+          {
+            recipe_id: 5,
+            order: 5,
             step_description:
               "Throw the battered dough ball into the helishly hot oven until it smells done"
           },
           {
             recipe_id: 5,
-            order: 4,
+            order: 6,
             step_description: "Melt your face while trying to guzzle down the mashed pizza you made"
           }
         ]);
